@@ -1,5 +1,5 @@
-module "network_vpc" {
-  source  = "app.terraform.io/TheGreatest/network/google//modules/vpc"
+module "network" {
+  source  = "app.terraform.io/TheGreatest/network/google"
   version = "3.4.0"
   network_name = "bander-network"
   project_id = var.project_id
