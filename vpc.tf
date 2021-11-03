@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/TheGreatest/network/google"
   version = "3.4.0"
   network_name = "bander-network"
-  project_id = var.project_id
+  project_id = var.project
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
